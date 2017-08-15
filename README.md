@@ -5,58 +5,36 @@
 
 -build           //webpack输出文件
 
-     -bundle.js
-    
-     -index.html
-    
-     -manifest.json
-    
-     -styles.css
-      
+     -bundle.js    
+     -index.html    
+     -manifest.json    
+     -styles.css      
      -vendor.6efd1a6fe23853601773.js
      
 -compononet       //组件
 
-    -Main.jsx
-    
+    -Main.jsx    
     -Topic.jsx
     
 -src
 
-    -Action   
-    
-        -Action.jsx
-        
-    -Config   
-    
-        -Route.jsx     
-        
-        -Store.jsx
-        
-    -Css
-    
-        -css.css
-        
-    -Img
-    
-        -73.png
-        
-    -Less
-    
-        -less.less
-        
-    -Reducer
-    
-        -index.jsx
-        
-    -Scss
-    
-        -scss.scss
-        
-    -app.js              // webpack 的入口文件
-    
-    -index.html          // html模板，用于生成build/index.html
-    
+    -Action     
+        -Action.jsx        
+    -Config     
+        -Route.jsx        
+        -Store.jsx        
+    -Css    
+        -css.css        
+    -Img    
+        -73.png        
+    -Less  
+        -less.less        
+    -Reducer    
+        -index.jsx        
+    -Scss    
+        -scss.scss        
+    -app.js              // webpack 的入口文件    
+    -index.html          // html模板，用于生成build/index.html   
     
 -.babelrc
 
